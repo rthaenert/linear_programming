@@ -25,5 +25,5 @@ Build the Docker image and then run lp_solve inside the container, the example f
 
     docker build . -t lp_solve
     docker run -t -i lp_solve
-    lp_solve fx_arbitrage.lplp_solve fx_arbitrage.lp
+    lp_solve fx_arbitrage.lp
 
