@@ -18,3 +18,12 @@ Example: FX exchange rates
 | GBP | 1.31 | 1.43 | 1.72 | 1 |
 
 This is of course not very realistic (for example due to transaction costs), but it serves as a nice example for linear programming.
+
+## Running this example
+
+Build the Docker image and then run lp_solve inside the container, the example files are already inside the container:
+
+    docker build . -t lp_solve
+    docker run -t -i lp_solve
+    lp_solve fx_arbitrage.lplp_solve fx_arbitrage.lp
+
