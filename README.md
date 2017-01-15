@@ -9,6 +9,7 @@ I added a Dockerfile for testing this inside a docker container using lp_solve (
 Due to price inefficiencies sometimes a risk free return can be achieved by exchanging an amount of money in currency X to currency Y [...] and then back to X such that the resulting amount of money is bigger than the initially invested amount.
 
 Example: FX exchange rates
+
 |     | EUR | USD | 100JPY | GBP  |
 |---  |---  | --- | --- | ---  | 
 | EUR | 1   | 1.08| 130 | 0.76 | 
