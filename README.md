@@ -45,6 +45,6 @@ Build the Docker image and then run lp_solve inside the container, the example f
 
     docker build . -t lp_solve
     docker run -t -i lp_solve
-    lp_solve [fx_arbitrage.lp|max_weight.lp]
+    lp_solve [fx_arbitrage.lp|snack_optimization.lp]
 
 A similar docker image for lp_solve can be found in DockerHub: (https://hub.docker.com/r/jamesshapiro/lpsolve/).
