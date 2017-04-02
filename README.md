@@ -25,6 +25,7 @@ Another example which can be solved using linear programming are Knapsack relate
 Some companies grant you a specified amount of money in order to buy something to eat at the internal restaurant. For some companies there is usually a leftover after main lunch (for example 1.20 Euro) which you can use to buy snacks at the kiosk.  If you want to maximize the weight of snacks you get at the kiosk for your leftover money linear programming can help you as well (or you want to maximize the kalories, ...).
 
 Example: Snack Optimization
+
 | Name  | Weight (g) | Price | 
 | --- | --- | --- |
 | Twix | 58 | 0.70 |
